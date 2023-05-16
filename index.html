@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+
+<body>
+    <!--nav-bar-->
+    <header class="nav-bar">
+        <!--h1 network-->
+        <h1>Network</h1>
+    </header>
+    <!--Title-->
+    <h2>Your Feed</h2>
+    <!--body container content-->
+    <div class="body-content">
+        <!--avatar name-->
+        <div class="avatar">
+            <!--3 divs pfp, add avatar, name-->
+            <div>
+                <img class="avatar-pfp" src="./images/user-circle.png" alt="avatar photo">
+            </div>
+            <div>
+                <a class="add-avatar" href="#">Add an avatar</a>
+            </div>
+            <div>
+                <h3 class="james-doe">James Doe</h3>
+            </div>
+        </div>
+        <!--feed boxes-->
+        <div class="cards-container">
+            <!--Neil M box 1-->
+            <div class="card-one">
+                <!--top half of card one-->
+                <div class="top-row">
+                    <div>
+                        <h4>Neil M</h4>
+                    </div>
+                    <div class="likes">
+                        <h5 id="neilCard">9 like(s)</h5>
+                    </div>
+                    <div>
+                        <button onclick="changeNeilLikes()" class="like-button">Like</button>
+                    </div>
+                </div>
+                <!--bottom half of card one-->
+                <div>
+                    <p>I just set up this new disc bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+            </div>
+            <!--Nichole K box 2-->
+            <div class="card-two">
+                <!--top half of card two-->
+                <div class="top-row">
+                    <div>
+                        <h4>Nichole K</h4>
+                    </div>
+                    <div class="likes">
+                        <h5 id="nicholeCard">12 like(s)</h5>
+                    </div>
+                    <div>
+                        <button onclick="changeLikes()" class="like-button">Like</button>
+                    </div>
+                </div>
+                <!--bottom half of card two-->
+                <div>
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+            </div>
+            <!--Jim R box 3-->
+            <div class="card-three">
+                <!--top half of card three-->
+                <div class="top-row">
+                    <div>
+                        <h4>Jim R</h4>
+                    </div>
+                    <div class="likes">
+                        <h5 id="jimCard">9 like(s)</h5>
+                    </div>
+                    <div>
+                        <button onclick="changeJimLikes()" class="like-button">Like</button>
+                    </div>
+                </div>
+                <!--bottom half of card three-->
+                <div>
+                    <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

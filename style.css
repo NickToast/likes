@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'roboto', sans-serif;
+}
+
+/*nav section*/
+
+.nav-bar {
+    width: 800px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 0px auto;
+    padding: 20px 30px;
+}
+
+/* title in middle of page*/
+
+h2 {
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+}
+
+/*body content*/
+
+.body-content {
+    /* border: 1px solid black; */
+    height: 600px;
+    width: 850px;
+    display: flex;
+    margin: 0 auto;
+}
+
+/*avatar card*/
+
+.avatar {
+    width: 200px;
+    height: 265px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.avatar-pfp {
+    height: 90px;
+    width: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.add-avatar {
+    color: blue;
+    /* margin-bottom: 30px; */
+    padding-bottom: 30px;
+}
+
+.james-doe {
+    padding: 30px 0px;
+    font-size: 25px;
+    /* margin-bottom: 10px; */
+}
+
+/* cards */
+
+.cards-container {
+    /* border: 2px solid red; */
+    width: 650px;
+}
+
+.card-one,
+.card-two,
+.card-three {
+    height: 150px;
+    width: 620px;
+    border: 3px solid black;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.top-row {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4 {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.likes {
+    width: 350px;
+    display: flex;
+    justify-content: right;
+}
+
+.like-button {
+    padding: 5px 15px;
+    margin-right: 30px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px black;
+    background-color: #FFD966;
+    font-weight: bold;
+}
+
+p {
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+a {
+    color: blue;
+}
